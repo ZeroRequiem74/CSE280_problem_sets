@@ -19,11 +19,11 @@ Identify (with an "X") whether each statement is either a proposition or non-pro
 |:-:|:-:|:-:|
 |I got an A in CSE 280|X||
 |Hello!||X|
-|The hose has a leak.|||
-|The wind speed is greater than 30 miles per hour.|||
-|Close the window.|||
-|The window is closed.|||
-|Are you graduating this semester?|||
+|The hose has a leak.|X||
+|The wind speed is greater than 30 miles per hour.|X||
+|Close the window.||X|
+|The window is closed.|X||
+|Are you graduating this semester?|X||
 
 ## Question 2 (28 points)
 
@@ -42,28 +42,28 @@ Complete the following truth tables (the first one is done for you):
 
 |$p$|$q$|$p \lor q$|
 |:-:|:-:|:-:|
-|T|T||
-|T|F||
-|F|T||
-|F|F||
+|T|T|T|
+|T|F|T|
+|F|T|T|
+|F|F|F|
 
 3. $\neg p \to q$
 
 |$p$|$q$|$\neg p$|$\neg p \to q$|
 |:-:|:-:|:-:|:-:|
-|T|T|||
-|T|F|||
-|F|T|||
-|F|F|||
+|T|T|F|F|
+|T|F|F|T|
+|F|T|T|T|
+|F|F|T|F|
 
 4. $p \land \neg q$
 
 |$p$|$q$|$\neg q$|$p \land \neg q$|
 |:-:|:-:|:-:|:-:|
-|T|T|||
-|T|F|||
-|F|T|||
-|F|F|||
+|T|T|F|F|
+|T|F|T|T|
+|F|T|F|F|
+|F|F|T|F|
 
 5. $p \land (q \lor \neg r)$
 
