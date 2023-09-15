@@ -120,8 +120,7 @@ There is no built-in python function that implements exclusive or.  Implement th
 
 ```python
 def xor(p, q):
-    # Your code here
-    pass
+    return (p and not q) or (not p and q)
 
 def truth_table_2_vars(function):
     print(f"{function.__name__}")
